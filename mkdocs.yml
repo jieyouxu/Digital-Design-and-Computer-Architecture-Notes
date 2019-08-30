@@ -1,0 +1,55 @@
+# Site information
+site_name: 'Digital Design and Computer Architecture Notes'
+
+# Repository information
+repo_name: 'Digital-Design-and-Computer-Architecture-Notes'
+repo_url: 'https://github.com/jieyouxu/Digital-Design-and-Computer-Architecture-Notes'
+
+# Navigation order
+nav:
+  - Home: index.md
+
+# Theme
+theme:
+  name: 'material'
+  language: 'en'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo: 
+    icon: 'book'
+  palette:
+    primary: 'lime'
+    accent: 'light green'
+  feature:
+    tabs: false
+
+# Markdown extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - meta
+  - footnotes
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# JavaScript
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
